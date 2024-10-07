@@ -113,6 +113,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
           onRequestSession: onRequestSession,
           onEndSession: onEndSession
         });
+		
+		console.log("Wir sind initXR!");
+		
         document.querySelector('header').appendChild(xrButton.domElement);
 
         if (navigator.xr) {
