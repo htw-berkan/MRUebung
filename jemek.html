@@ -22,14 +22,14 @@
     <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
       <!-- Assets für das 3D-Modell -->
       <a-assets>
-        <a-asset-item id="model" src="assets/jemek.glb"></a-asset-item>
+        <a-asset-item id="model" src="assets/jemek1.glb"></a-asset-item>
       </a-assets>
 
       <!-- 3D-Modell mit Drehsteuerung -->
       <a-entity id="3d-figur" 
                 gltf-model="#model" 
-                scale="0.1 0.1 0.1" 
-                position="0 0 -2" 
+                scale="1 1 1"
+                position="0 0 -1"
                 gesture-detector
                 rotation="0 0 0"></a-entity>
 
